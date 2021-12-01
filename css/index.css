@@ -1,0 +1,14 @@
+.opening {
+  background-image: url(/images/pexels-jonathan-cooper-9660891.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  position: relative;
+  text-align: center;
+  background-position-y: 50%;
+}
+
+.opening-content h2,
+p {
+  color: #fff;
+}

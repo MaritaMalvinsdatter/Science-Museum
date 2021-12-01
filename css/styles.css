@@ -3,10 +3,22 @@
 Body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding: 20px;
+  /* padding: 20px; */
   font-size: 16px;
   position: relative;
   min-height: 100vh;
+  margin: 0 auto;
+}
+
+.cta {
+  background-color: #f67c57;
+  color: #fff;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 5px 35px;
+  font-size: 14px;
+  font-family: "Montserrat", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 /* Header */
@@ -15,9 +27,20 @@ Header {
   background-color: #204361;
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
   justify-content: space-between;
   align-items: center;
+}
+
+header p {
+  color: #fff;
+}
+
+.on-page {
+  color: #f67c57;
+}
+
+.fa-bars {
+  color: #fff;
 }
 
 nav {
