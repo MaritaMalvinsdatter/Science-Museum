@@ -23,20 +23,25 @@ p {
   margin: 10px;
 }
 
-.content-overview a {
-  text-transform: uppercase;
-  color: #fff;
-}
-
 .content-img {
   background-size: cover;
-  background-color: black;
-  opacity: 0.8;
   background-repeat: no-repeat;
   min-height: 200px;
   position: relative;
   text-align: center;
   margin: 5px 0;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(32, 67, 97, 0.5);
+}
+
+.overlay-text a {
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .events {
