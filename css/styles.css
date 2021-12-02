@@ -3,11 +3,15 @@
 Body {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  /* padding: 20px; */
+  padding: 20px;
   font-size: 16px;
   position: relative;
   min-height: 100vh;
-  margin: 0 auto;
+}
+
+.home-page-body {
+  margin: 0;
+  padding: 0;
 }
 
 .cta {
@@ -29,6 +33,13 @@ Header {
   align-items: center;
   justify-content: space-between;
   align-items: center;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
 
 header p {
