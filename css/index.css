@@ -20,9 +20,44 @@ p {
 .content-overview {
   display: flex;
   flex-direction: column;
+  margin: 15px;
 }
 
-.content-overview img {
-  min-width: 380px;
-  max-height: 200px;
+.content-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  position: relative;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.events {
+  background-image: url(/images/pexels-abby-kihano-431722.jpg);
+  background-position-y: 100%;
+}
+
+.exhibitions {
+  background-image: url(/images/mammoth-1257288_1920.jpg);
+  background-position-y: 50%;
+}
+
+.explore {
+  background-image: url(/images/samuel-zeller-158996.jpg);
+  background-position-y: 48%;
+}
+
+.visit {
+  background-image: url(/images/scott-webb-102825.jpg);
+  background-position-y: 35%;
+}
+
+.get-involved {
+  background-image: url(/images/pexels-ron-lach-9196478.jpg);
+  background-position-y: 50%;
+}
+
+.contact {
+  background-image: url(/images/jesse-orrico-60373.jpg);
+  background-position-y: 20%;
 }
