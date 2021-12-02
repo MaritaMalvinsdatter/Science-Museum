@@ -10,9 +10,20 @@
   background-position-y: 50%;
 }
 
-.opening-content h2,
+.opening .overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.overlay-text h1,
 p {
   color: #fff;
+  margin: 0;
+}
+
+h1 {
+  font-size: 24px;
 }
 
 /* Overview Content */
@@ -33,6 +44,9 @@ p {
 }
 
 .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -42,6 +56,11 @@ p {
 .overlay-text a {
   text-transform: uppercase;
   color: #fff;
+  font-size: 1.5em;
+}
+
+.cta a {
+  font-size: 14px;
 }
 
 .events {
@@ -66,7 +85,9 @@ p {
 
 .get-involved {
   background-image: url(/images/pexels-ron-lach-9196478.jpg);
+  background-size: auto;
   background-position-y: 50%;
+  background-position-x: 20%;
 }
 
 .contact {
