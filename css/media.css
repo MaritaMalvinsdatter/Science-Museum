@@ -1,0 +1,79 @@
+/* From Screen Size 600px */
+
+@media only screen and (min-width: 600px) {
+  nav {
+    display: flex;
+    position: fixed;
+    background: #204361;
+  }
+
+  nav ul {
+    margin: 0px auto;
+    display: flex;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav-container label {
+    display: none;
+  }
+
+  .content-overview {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+  .content-img {
+    min-width: 350px;
+    margin: 10px auto;
+  }
+}
+
+/* From Screen Size 1000px */
+
+@media only screen and (min-width: 1000px) {
+  nav li {
+    font-size: 20px;
+  }
+
+  .opening {
+    min-height: 573px;
+  }
+
+  .opening .overlay {
+    align-items: flex-start;
+    padding-left: 20px;
+    justify-content: center;
+  }
+
+  .overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .cta {
+    transition-duration: 0.4s;
+  }
+
+  .cta:hover {
+    background-color: #106497;
+  }
+
+  .content-overview {
+    /* display: flex;
+    flex-direction: row; */
+    margin: 10px;
+    /* flex-wrap: wrap; */
+  }
+
+  .content-img {
+    min-width: 400px;
+    margin: 20px auto;
+  }
+}
