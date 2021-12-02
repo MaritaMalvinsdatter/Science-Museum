@@ -42,8 +42,12 @@ Header {
   top: 0;
 }
 
-header p {
+.logo a {
   color: #fff;
+}
+
+.wrap-span {
+  display: block;
 }
 
 .on-page {
@@ -94,5 +98,5 @@ nav li {
 
 a {
   text-decoration: none;
-  color: #0b3b59;
+  color: #204361;
 }
