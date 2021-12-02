@@ -3,7 +3,7 @@
 @media only screen and (min-width: 600px) {
   nav {
     display: flex;
-    position: fixed;
+    /* position: fixed; */
     background: #204361;
   }
 
@@ -19,6 +19,19 @@
 
   .nav-container label {
     display: none;
+  }
+
+  .opening .overlay {
+    align-items: flex-start;
+    padding-left: 20px;
+    justify-content: center;
+  }
+
+  .overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 20px;
   }
 
   .content-overview {
@@ -45,7 +58,7 @@
     min-height: 573px;
   }
 
-  .opening .overlay {
+  /* .opening .overlay {
     align-items: flex-start;
     padding-left: 20px;
     justify-content: center;
@@ -55,7 +68,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
+    margin: 10px 20px;
+  } */
 
   .cta {
     transition-duration: 0.4s;
@@ -66,10 +80,10 @@
   }
 
   .content-overview {
-    /* display: flex;
-    flex-direction: row; */
+    display: flex;
+    flex-direction: row;
     margin: 10px;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
   }
 
   .content-img {
