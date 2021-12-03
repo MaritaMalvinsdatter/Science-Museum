@@ -85,6 +85,7 @@ nav {
 
 #hamburger-menu:checked ~ nav {
   display: block;
+  width: 150px;
 }
 
 nav ul {
