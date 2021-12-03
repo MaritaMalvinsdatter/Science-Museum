@@ -3,6 +3,15 @@ h1 {
   text-align: center;
 }
 
+.categories {
+  max-width: 900px;
+  margin: 60px auto;
+}
+
+.description {
+  margin: 20px auto;
+}
+
 .img-flex {
   display: flex;
   gap: 20px;
@@ -10,7 +19,6 @@ h1 {
 }
 
 .img-flex img {
-  /* flex: 1 1 200px; */
-  max-width: 100px;
-  height: auto;
+  flex: 0 1 auto;
+  min-width: 100px;
 }
