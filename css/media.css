@@ -1,9 +1,19 @@
 /* From Screen Size 600px */
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 700px) {
+  header {
+    min-height: 70px;
+    align-items: flex-end;
+  }
+
+  .logo {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+
   nav {
     display: flex;
-    /* position: fixed; */
+    position: static;
     background: #204361;
   }
 
@@ -48,7 +58,16 @@
 
 /* From Screen Size 1000px */
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 900px) {
+  header {
+    min-height: 100px;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
   nav li {
     font-size: 20px;
   }
@@ -80,7 +99,7 @@
 
 @media only screen and (min-width: 1600px) {
   .opening {
-    min-height: 250px;
+    min-height: 300px;
   }
 
   .content-img {
