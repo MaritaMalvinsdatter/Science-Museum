@@ -33,11 +33,17 @@
     margin: 10px 20px;
   }
 
-  .content-overview {
+  /* .content-overview {
     display: flex;
     flex-direction: row;
     margin: 0;
     flex-wrap: wrap;
+  } */
+
+  .content-img {
+    flex: 1 1 400px;
+    margin-top: 50px;
+    gap: 50px;
   }
 }
 
