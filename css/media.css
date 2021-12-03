@@ -1,4 +1,4 @@
-/* From Screen Size 600px */
+/* From Screen Size 700px */
 
 @media only screen and (min-width: 700px) {
   header {
@@ -33,6 +33,8 @@
     display: none;
   }
 
+  /* INDEX*/
+
   .opening .overlay {
     align-items: flex-start;
     justify-content: center;
@@ -56,6 +58,18 @@
   .content-img {
     flex: 1 1 300px;
   }
+
+  /* EXPLORE */
+
+  .categories {
+    margin: 20px 50px;
+  }
+
+  .img-flex img {
+    /* flex: 1 1 200px; */
+    max-width: 200px;
+    height: auto;
+  }
 }
 
 /* From Screen Size 1000px */
@@ -74,6 +88,8 @@
   nav a {
     font-size: 20px;
   }
+
+  /* INDEX*/
 
   .opening {
     min-height: 250px;
@@ -98,6 +114,18 @@
   .content-img {
     flex: 1 1 350px;
   }
+
+  /* EXPLORE */
+
+  .categories {
+    margin: 20px 150px;
+  }
+
+  .img-flex img {
+    /* flex: 1 1 200px; */
+    max-width: 250px;
+    height: auto;
+  }
 }
 
 @media only screen and (min-width: 1600px) {
@@ -105,11 +133,25 @@
     font-size: 24px;
   }
 
+  /* INDEX*/
+
   .opening {
     min-height: 300px;
   }
 
   .content-img {
     flex: 1 1 450px;
+  }
+
+  /* EXPLORE */
+
+  .categories {
+    margin: 20px 200px;
+  }
+
+  .img-flex img {
+    /* flex: 1 1 200px; */
+    max-width: 300px;
+    height: auto;
   }
 }
