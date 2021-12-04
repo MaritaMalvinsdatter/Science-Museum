@@ -1,0 +1,33 @@
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  margin: 60px auto;
+  justify-content: space-evenly;
+}
+
+.events-info-box {
+  max-width: 450px;
+  border: 1px solid #204361;
+  margin: 25px;
+}
+
+.events img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+h2 {
+  margin: 5px 5px 10px 5px;
+}
+
+p {
+  margin: 5px 5px 10px;
+}
+
+.fa-ticket-alt,
+.fa-calendar-alt,
+.fa-user-alt {
+  margin-right: 5px;
+}
