@@ -58,18 +58,6 @@
   .content-img {
     flex: 1 1 300px;
   }
-
-  /* EXPLORE */
-
-  /* .categories {
-    margin: 20px 50px;
-  } */
-
-  .img-flex img {
-    /* flex: 1 1 200px; */
-    /* max-width: 200px;
-    height: auto; */
-  }
 }
 
 /* From Screen Size 1000px */
