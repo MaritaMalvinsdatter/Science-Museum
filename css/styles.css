@@ -20,6 +20,11 @@ main {
   margin: 0px;
 }
 
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
 .cta {
   background-color: #f67c57;
   color: #fff;
@@ -107,9 +112,4 @@ nav li {
 a {
   text-decoration: none;
   color: #204361;
-}
-
-h1 {
-  font-size: 2em;
-  text-align: center;
 }
