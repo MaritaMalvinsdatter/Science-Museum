@@ -1,8 +1,3 @@
-h1 {
-  font-size: 2em;
-  text-align: center;
-}
-
 .exhibitions {
   display: flex;
   flex-wrap: wrap;
