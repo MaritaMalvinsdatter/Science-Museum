@@ -1,0 +1,30 @@
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.exhibitions {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+}
+
+.exhibitions-info-box {
+  max-width: 450px;
+  border: 1px solid #204361;
+  margin: 20px auto;
+}
+
+.exhibitions img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 200px;
+}
+
+h2 {
+  margin: 5px;
+}
+
+p {
+  margin: 5px 5px 10px;
+}
