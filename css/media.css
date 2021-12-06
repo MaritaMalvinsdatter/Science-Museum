@@ -48,7 +48,7 @@
   }
 
   .opening .overlay-text {
-    margin: 45px;
+    margin: 0px 0px 25px 25px;
   }
 
   .overlay-text h1 {
@@ -56,7 +56,7 @@
   }
 
   .opening .cta {
-    margin-left: 45px;
+    margin-left: 25px;
   }
 
   .content-overview {
@@ -107,6 +107,19 @@
     font-size: 2em;
   }
 
+  .opening .overlay-text {
+    margin: 0px 0px 25px 40px;
+  }
+
+  .cta {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .opening .cta {
+    margin-left: 40px;
+  }
+
   .content-overview {
     display: flex;
     flex-direction: row;
@@ -141,6 +154,14 @@
 
   .opening {
     min-height: 350px;
+  }
+
+  .opening .overlay-text {
+    margin: 0px 0px 30px 65px;
+  }
+
+  .opening .cta {
+    margin-left: 65px;
   }
 
   .content-overview {
