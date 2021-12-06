@@ -25,7 +25,11 @@ h2 {
 
 .contact-page {
   max-width: 700px;
-  margin: 60px auto;
+  margin: 100px auto;
+}
+
+.contact-page h1 {
+  margin-bottom: 35px;
 }
 
 input,
@@ -43,10 +47,26 @@ textarea {
 
 .form-wrapper {
   text-align: left;
+  margin-top: 35px;
 }
 
 .form-wrapper > * {
-  flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+.contact-info {
+  margin: 35px 0;
+}
+
+.contact-info p {
+  line-height: 5px;
+}
+
+.fa-facebook-square,
+.fa-instagram-square,
+.fa-snapchat-square,
+.fa-twitter-square {
+  font-size: 30px;
+  margin-right: 15px;
 }

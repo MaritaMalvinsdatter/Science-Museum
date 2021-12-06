@@ -22,12 +22,16 @@ p {
   margin: 0;
 }
 
+.overlay-text h1 {
+  font-size: 22px;
+}
+
 /* Overview Content */
 
 .content-overview {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 15px;
 }
 
 .content-img {
