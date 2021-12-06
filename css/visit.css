@@ -1,0 +1,31 @@
+.visit {
+  margin: 60px auto;
+  max-width: 700px;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: auto;
+  max-width: 700px;
+  min-width: 300px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+}
+
+.hours p {
+  line-height: 5px;
+}
+
+.day {
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 50px;
+}
