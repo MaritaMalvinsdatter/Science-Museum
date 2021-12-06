@@ -3,29 +3,50 @@
   max-width: 700px;
 }
 
-.mapouter {
+.map {
   position: relative;
   text-align: right;
-  height: auto;
+  height: 400px;
   max-width: 700px;
   min-width: 300px;
-}
-
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 100%;
-  width: 100%;
 }
 
 .hours p {
   line-height: 5px;
 }
 
-.day {
+.bold {
   font-weight: bold;
 }
 
 h2 {
   margin-top: 50px;
+}
+
+.contact {
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+.button input {
+  border: none;
+}
+
+.form-wrapper {
+  text-align: left;
+}
+
+.form-wrapper > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }

@@ -38,13 +38,9 @@
                 <h2>Location</h2>
                 <p>The museum is located at Kronprinsesse Märthas plass 1, 
                     0160 Oslo.</p>
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Kronprinsesse%20M%C3%A4rthas%20plass%201&t=&z=15&ie=UTF8&iwloc=&output=embed" 
-                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-                        <a href="https://putlocker-is.org">putlocker</a><br><style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style>
-                        <a href="https://www.embedgooglemap.net">how to embed a google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:600px;}</style>
-                    </div>
+                <div class="map">
+                    <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=Kronprinsesse%20M%C3%A4rthas%20plass%201&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
             </section>
             <section>
@@ -59,13 +55,13 @@
             </section>
             <section class="hours">
                 <h2>Opening Hours</h2>
-                <p><span class="day">Monday:</span> Closed</p>
-                <p><span class="day">Tuesday:</span> 10:00 – 16:00</p>
-                <p><span class="day">Wednesday:</span> 10:00 – 16:00</p>
-                <p><span class="day">Thursday:</span> 10:00 – 16:00</p>
-                <p><span class="day">Friday:</span> 10:00 – 19:00</p>
-                <p><span class="day">Saturday:</span> 09:00 – 16:00</p>
-                <p><span class="day">Sunday:</span> 09:00 – 13:00</p>
+                <p><span class="bold">Monday:</span> Closed</p>
+                <p><span class="bold">Tuesday:</span> 10:00 – 16:00</p>
+                <p><span class="bold">Wednesday:</span> 10:00 – 16:00</p>
+                <p><span class="bold">Thursday:</span> 10:00 – 16:00</p>
+                <p><span class="bold">Friday:</span> 10:00 – 19:00</p>
+                <p><span class="bold">Saturday:</span> 09:00 – 16:00</p>
+                <p><span class="bold">Sunday:</span> 09:00 – 13:00</p>
             </section>
             <section>
                 <h2>Accessibility</h2>
@@ -91,11 +87,55 @@
             <section>
                 <p>Want to make a booking for groups over 6 people, got
                     feedback or a question?</p>
-                <p>Get in touch here: </p>
+                <p>Get in touch here and we will answer within 24 hours: </p>
+            </section>
+            <form method="POST">
+                <div class="form-wrapper">
+                    <section>
+                        <label for="name">Full Name</label>
+                        <input type="text" name="fullname" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone">
+                        <label for="subject">Subject:</label>
+                        <select name="subject" id="subject">
+                            <option value="opening-week">Tickets for Opening Week</option>
+                            <option value="group-booking">Group Booking</option>
+                            <option value="night-at-the-museum">Night at the Museum</option>
+                            <option value="tours">Guided Tours</option>
+                            <option value="teacher">Teacher Visiting with Students</option>
+                            <option value="events">Events</option>
+                            <option value="exhibitions">Exhibitions</option>
+                            <option value="Internship">Internship</option>
+                            <option value="researcher">I am a Researcher</option>
+                            <option value="get-involved">Get Involved</option>
+                            <option value="feedback">Feedback</option>
+                            <option value="lost-and-found">Lost & Found</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="message">Type your message</label>
+                        <textarea name="message" id="message" style="height:100px"></textarea>
+                    </section>
+                </div>
+                <div class="button">
+                    <input type="submit" class="cta" value="send">
+                </div>
+                
+            </form>
+            <section class="contact-info">
+                <p class="bold">Phone:</p>
+                <p>+4712345678</p>
+            </section>
+            <section class="contact-info">
+                <p class="bold">Email:</p>
+                <p>contact@communitysciencemuseum.com</p>
+            </section>
+            <section class="contact-info">
+                <p class="bold">Social Media</p>
+                <i class="fab fa-facebook-square"></i><i class="fab fa-instagram-square"></i><i class="fab fa-snapchat-square"></i><i class="fab fa-twitter-square"></i>
             </section>
         </section>
-        
-        
     </main>
     
 </body>
