@@ -70,6 +70,10 @@
   .content-img {
     flex: 1 1 300px;
   }
+
+  footer {
+    padding: 20px 30px 20px 40px;
+  }
 }
 
 /* From Screen Size 900px */
@@ -136,6 +140,15 @@
   .get-involved {
     background-position-y: 50%;
     background-position-x: 20%;
+  }
+
+  footer .cta {
+    font-size: 16px;
+    padding: 5px 15px;
+  }
+
+  footer a:hover {
+    color: #f67c57;
   }
 
   /*Visit & Contact*/

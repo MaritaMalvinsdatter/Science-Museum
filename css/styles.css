@@ -117,3 +117,45 @@ a {
   text-decoration: none;
   color: #204361;
 }
+
+/* Footer */
+
+footer {
+  background-color: #204361;
+  color: #fff;
+  padding: 20px 5px 20px 15px;
+}
+
+.flex-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+footer a {
+  color: #fff;
+}
+
+.social-media {
+  font-size: 30px;
+  display: flex;
+}
+
+.social-media > * {
+  margin-right: 10px;
+}
+
+.content-list p {
+  line-height: 25px;
+}
+
+.sign-up {
+  margin: 25px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  max-width: 220px;
+}
+
+.address {
+  font-size: 14px;
+}
