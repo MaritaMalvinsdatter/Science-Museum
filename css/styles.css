@@ -146,13 +146,12 @@ footer a {
 }
 
 .content-list p {
-  line-height: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
 }
 
 .sign-up {
   margin: 25px 0px 15px 0px;
-  display: flex;
-  flex-direction: column;
   max-width: 220px;
 }
 
