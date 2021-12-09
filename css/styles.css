@@ -141,12 +141,16 @@ footer a {
   display: flex;
 }
 
+.visit-us:first-child {
+  margin-bottom: 5px;
+}
+
 .social-media > * {
   margin-right: 10px;
 }
 
 .content-list p {
-  line-height: 20px;
+  line-height: 15px;
   text-transform: uppercase;
 }
 
