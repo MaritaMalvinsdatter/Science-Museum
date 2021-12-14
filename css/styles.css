@@ -28,7 +28,7 @@ h1 {
 
 .cta {
   background-color: #f67c57;
-  color: #fff;
+  color: #000;
   border-radius: 5px;
   text-transform: uppercase;
   padding: 5px 15px;
@@ -154,6 +154,7 @@ footer a {
 }
 
 .content-list p {
+  /* line-height: 15px; */
   text-transform: uppercase;
 }
 
