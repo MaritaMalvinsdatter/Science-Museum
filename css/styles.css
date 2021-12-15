@@ -98,7 +98,7 @@ nav {
   position: absolute;
   right: 0px;
   z-index: 1;
-  background: #fff;
+  background: #204361;
   top: 30px;
 }
 
@@ -119,7 +119,10 @@ nav li {
 
 a {
   text-decoration: none;
-  color: #204361;
+}
+
+nav a {
+  color: #fff;
 }
 
 /* Footer */
