@@ -104,7 +104,8 @@
   }
 
   .cta:hover {
-    background-color: #204361;
+    background-color: #fff;
+    border: solid 1px #f67c57;
   }
 
   .overlay-text a {
