@@ -6,12 +6,20 @@
   max-width: 40%;
 }
 
+h2 {
+  margin-bottom: 50px;
+}
+
 .thank-you p {
-  text-align: left;
-  margin: 35px auto;
+  margin: 25px auto;
+}
+
+.thank-you a {
+  text-decoration: underline;
 }
 
 .fa-check-circle {
-  font-size: 30px;
+  margin: 20px 0px;
+  font-size: 35px;
   color: green;
 }
