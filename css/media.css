@@ -93,6 +93,10 @@
     font-size: 20px;
   }
 
+  nav a:hover {
+    color: #f67c57;
+  }
+
   /* INDEX*/
 
   .opening {
