@@ -93,3 +93,70 @@
   background-image: url(/images/jesse-orrico-60373.jpg);
   background-position-y: 20%;
 }
+
+/* Pop Up*/
+
+.popup-box {
+  margin: 20px 0;
+}
+
+.content {
+  text-align: center;
+}
+
+.ontop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.ontop:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 30px;
+  background: #fff;
+  border: 1px solid #0b3b59;
+  width: 50%;
+}
+
+.close-window {
+  text-align: right;
+}
+
+input,
+select,
+textarea {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+}
+
+.button input {
+  border: none;
+}
+
+.form-wrapper {
+  text-align: left;
+  margin-top: 35px;
+}
+
+.form-wrapper > * {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper p {
+  font-style: italic;
+}
+
+.form-wrapper a {
+  text-decoration: underline;
+}
