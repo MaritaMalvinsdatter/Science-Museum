@@ -16,8 +16,7 @@
   justify-content: space-around;
 }
 
-.overlay-text h1,
-p {
+.overlay-text > * {
   color: #fff;
   margin: 0;
 }
