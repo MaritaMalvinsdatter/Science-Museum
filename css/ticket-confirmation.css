@@ -3,6 +3,7 @@
   margin: 50px auto;
   border: 1px solid #0b3b59;
   padding: 10px 15px;
+  max-width: 40%;
 }
 
 .thank-you p {
