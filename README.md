@@ -16,7 +16,7 @@ We needed to make at least 4-6 pages, writing the code with semantic and neatly 
 <li>Accessible within the WCAG principles</li>
 </ul>
 
-<h3>Built With</h3>
+<h3>Buildt With</h3>
 <ul>
 <li>HTML</li>
 <li>CSS</li>
