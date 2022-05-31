@@ -1,27 +1,30 @@
-<h1>Community Science Museum</h1>
+# Community Science Museum
 
 <img src="/images/science_museum.png">
 
-<h2>Description</h2>
+## Description
 
 This was our Semester Project where we had to make a website for a Community Science Museum, where the core target audience was children aged 7-15, and families with younger kids.
 We needed to make at least 4-6 pages, writing the code with semantic and neatly indented HTML, and we had to follow the DRY principles for the CSS. The site also need to be responive, attracive and easy to use across all screen sizes. My site ended with 6 pages where visitors can learn more about whats happening at the museum, contact and visitor information, and how to get involved.
 
-<h2>The Site is</h2>
+Responsive accross all devices
+Easy to use and navigate
+Informative and Engaging
+Accessible within the WCAG principles
 
-<ul>
-<li>Responsive accross all devices</li>
-<li>Easy to use and navigate</li>
-<li>Informative and Engaging</li>
-<li>Accessible within the WCAG principles</li>
-</ul>
+### Buildt With
 
-<h3>Buildt With</h3>
-<ul>
-<li>HTML</li>
-<li>CSS</li>
-</ul>
+- HTML
+- CSS
 
-<h3>Contact</h3>
+### Designed With
 
-My LinkedIn: www.linkedin.com/in/marita-malvinsdatter-stenersen
+- Adobe XD
+
+### Contact
+
+My LinkedIn Profile: www.linkedin.com/in/marita-malvinsdatter-stenersen
+
+### Link to Page
+
+[Community Science Museum](https://compassionate-tesla-4e6abb.netlify.app/)
