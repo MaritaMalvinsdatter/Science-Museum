@@ -52,12 +52,12 @@ Header {
   padding: 20px 15px;
 }
 
-.header {
+/* .header {
   position: absolute;
   width: 100%;
   left: 0;
   top: 0;
-}
+} */
 
 .logo a {
   color: #fff;
