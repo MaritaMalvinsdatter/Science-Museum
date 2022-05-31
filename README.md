@@ -1,4 +1,4 @@
-Community Science Museum
+<h1>Community Science Museum</h1>
 
 <img src="/images/science_museum.png">
 
