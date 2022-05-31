@@ -21,6 +21,8 @@ We needed to make at least 4-6 pages, writing the code with semantic and neatly 
 
 - Adobe XD
 
+<img src="/images/museum_proto.jpg">
+
 ### Contact
 
 My LinkedIn Profile: www.linkedin.com/in/marita-malvinsdatter-stenersen
